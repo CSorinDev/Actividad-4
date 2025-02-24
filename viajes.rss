@@ -1,9 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!--  La parte fija del fichero xml correspondiente a un rss  -->
 <rss version="2.0">
     <channel>
-        <title>El nombre de nuestro feed RSS</title>
-        <link>Dirección web en la que se encuentre nuestro RSS</link>
-        <description>Contenido que vamos a ofrecer a los usuarios</description>
+        <title>Viajes Sorin</title>
+        <link>https://github.com/CSorinDev/Actividad-4/blob/main/viajes.rss</link>
+        <description>Los mejores viajes hasta la fecha</description>
         <!--  La parte fija opcional  -->
         <language>es-ES</language>
         <image>
