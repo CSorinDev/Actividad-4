@@ -5,30 +5,29 @@
         <link>https://csorindev.github.io/Actividad-4</link>
         <description>Mis mejores viajes hasta la fecha</description>
         <language>es-ES</language>
+        <ttl>1</ttl>
         <image>
             <title>Viajes Sorin</title>
-            <url>https://raw.githubusercontent.com/CSorinDev/Actividad-4/main/images/oporto.jpeg</url>
+            <url>https://raw.githubusercontent.com/CSorinDev/Actividad-4/main/icons/rss.png</url>
             <link>https://csorindev.github.io/Actividad-4</link>
             <width>90</width>
             <height>36</height>
-        </image>    
+        </image>   
+        <!-- items -->
         <item>
             <title>Viaje a Andorra</title>
             <link>https://csorindev.github.io/Actividad-4/andorra.html</link>
             <description>Detalles del viaje a Andorra</description>
-            <guid>https://csorindev.github.io/Actividad-4/andorra.html</guid>
         </item>
         <item>
             <title>Viaje a Oporto</title>
             <link>https://csorindev.github.io/Actividad-4/oporto.html</link>
             <description>Detalles del viaje a Oporto</description>
-            <guid>https://csorindev.github.io/Actividad-4/oporto.html</guid>
         </item>
         <item>
             <title>Viaje a Singapur</title>
             <link>https://csorindev.github.io/Actividad-4/singapur.html</link>
             <description>Detalles del viaje a Singapur</description>
-            <guid>https://csorindev.github.io/Actividad-4/singapur.html</guid>
         </item>
     </channel>
 </rss>
