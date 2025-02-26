@@ -17,26 +17,35 @@
           <li><a href="contacto.html">Contacto</a></li>
         </ul>
       </nav>
+      <a type="application/rss+xml" href="./viajes.rss">
+        <img
+          class="icon"
+          src="./icons/rss.png"
+          alt="RSS"
+          width="24px"
+          height="24px"
+        />
+      </a>
     </header>
 
     <section class="last-section">
       <h1 class="title">Contacto</h1>
       <form action="">
         <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required />
+        <input placeholder="p.ej. Juan" type="text" id="nombre" name="nombre" required />
         <br />
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required />
+        <input placeholder="p.ej. ejemplo@mail.com" type="email" id="email" name="email" required />
         <br />
         <label for="mensaje">Mensaje:</label>
-        <textarea id="mensaje" name="mensaje" required></textarea>
+        <textarea placeholder="p.ej. Me gusta tu blog y me gustaria saber más sobre ..." rows="5" required></textarea>
         <br />
         <button type="submit">Enviar</button>
       </form>
     </section>
 
     <footer>
-      <small>Blog Viajes Sorin | 2025</p>
+      <small>Blog Viajes Sorin | 2025</small>
     </footer>
   </body>
 </html>
