@@ -1,65 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--  La parte fija del fichero xml correspondiente a un rss  -->
 <rss version="2.0">
     <channel>
-        <title>
-            Viajes Sorin
-        </title>
-        <link>
-            https://csorindev.github.io/Actividad-4
-        </link>
-        <description>
-            Mis mejores viajes hasta la fecha
-        </description>
-        <language>
-            es-ES
-        </language>
+        <title>Viajes Sorin</title>
+        <link>https://csorindev.github.io/Actividad-4</link>
+        <description>Mis mejores viajes hasta la fecha</description>
+        <language>es-ES</language>
         <image>
-            <title>
-                Imagen de Andorra
-            </title>
-            <url>
-                https://raw.githubusercontent.com/CSorinDev/Actividad-4/refs/heads/main/images/andorra.webp</url>
-            <width>
-                90
-            </width>
-            <height>
-                36
-            </height>
+            <title>Viajes Sorin</title>
+            <url>https://raw.githubusercontent.com/CSorinDev/Actividad-4/main/images/oporto.jpeg</url>
+            <link>https://csorindev.github.io/Actividad-4</link>
+            <width>90</width>
+            <height>36</height>
         </image>
-        <!--  La parte variable, la que corresponde a cada noticia o ítem  -->
         <item>
-            <title>
-                Viaje a Andorra
-            </title>
-            <link>
-                https://csorindev.github.io/Actividad-4/andorra.html
-            </link>
-            <description>
-                Detalles del viaje a Andorra
-            </description>
+            <title>Viaje a Andorra</title>
+            <link>https://csorindev.github.io/Actividad-4/andorra.html</link>
+            <description>Detalles del viaje a Andorra</description>
+            <guid>https://csorindev.github.io/Actividad-4/andorra.html</guid>
         </item>
         <item>
-            <title>
-                Viaje a Oporto
-            </title>
-            <link>
-                https://csorindev.github.io/Actividad-4/oporto.html
-            </link>
-            <description>
-                Detalles del viaje a Oporto
-            </description>
+            <title>Viaje a Oporto</title>
+            <link>https://csorindev.github.io/Actividad-4/oporto.html</link>
+            <description>Detalles del viaje a Oporto</description>
+            <guid>https://csorindev.github.io/Actividad-4/oporto.html</guid>
         </item>
         <item>
-            <title>
-                Viaje a Singapur
-            </title>
-            <link>
-                https://csorindev.github.io/Actividad-4/singapur.html
-            </link>
-            <description>
-                Detalles del viaje a Singapur
-            </description>
+            <title>Viaje a Singapur</title>
+            <link>https://csorindev.github.io/Actividad-4/singapur.html</link>
+            <description>Detalles del viaje a Singapur</description>
+            <guid>https://csorindev.github.io/Actividad-4/singapur.html</guid>
         </item>
     </channel>
 </rss>
